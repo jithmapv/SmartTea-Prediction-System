@@ -1,0 +1,14 @@
+.gutter-box {
+    padding: 8px 0;
+    background: #00a0e9;
+}
+.userDetails{
+    float: left;
+    display: flex;
+    flex-direction: row;
+    width: 650px;
+}
+.editBtn{
+    margin-top: 210px;
+    margin-left: 300px;
+}

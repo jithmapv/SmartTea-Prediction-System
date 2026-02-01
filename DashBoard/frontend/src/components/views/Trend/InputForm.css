@@ -1,0 +1,61 @@
+.container {
+    background-color: #f5f5f5;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .trend-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    background-color: #ffffff;
+  }
+  
+  .trend-input-container,
+  .trend-prediction-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+.trend-input-container input[type="file"] {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+    width: calc(50% - 130px);
+  }
+  
+  .trend-input-container button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4cb050;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  
+  .trend-input-container button[type="submit"]:hover {
+    background-color: green;
+  }
+  
+  @media (max-width: 768px) {
+    .trend-input-container input[type="file"] {
+      width: 100%;
+    }
+    .trend-input-container button[type="submit"] {
+      width: 100%;
+    }
+  }
+  
+  

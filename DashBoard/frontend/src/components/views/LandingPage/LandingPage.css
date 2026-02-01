@@ -1,0 +1,10 @@
+/* styles.css */
+.smart-tea-header {
+    font-size: 36px;
+    color: #2a753e; /* Change the color to your preference */
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+    /* Add any other styles you want */
+  }
